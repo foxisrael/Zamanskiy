@@ -64,19 +64,19 @@
                 <div class="bc icon-right"></div>
                 <a class="bc" href="#">Инструмент</a>
                 <div class="bc icon-right"></div>
-                <p class="bc" href="#">Перфораторы</p>
+                <p class="bc">Перфораторы</p>
             </div>
 
             <div class="catalog-punchers">
                 <h2>Перфораторы</h2>
             </div>
 
-            <div class="catalog">
+            <div class="catalog clearfix">
                 <div class="filter">
-                    <p>ФИЛЬТР:</p>
+                    <b>ФИЛЬТР:</b>
                     <form>
                         <div class="range-filter">
-                            <h3>Цена</h3>
+                            <h3>ЦЕНА</h3>
                             <div class="range-controls">
                                 <div class="scale">
                                     <div class="bar" style="width: 70%"></div>
@@ -85,12 +85,11 @@
                                 <div class="toggle max-toggle"></div>
                             </div>
                             <div class="price-controls">
-                                от <input type="text" class="min-price" value="0"> до <input type="text" class="max-price" value="3000">
+                            <input type="text" class="min-price" value="0">  -  <input type="text" class="max-price" value="30000">
                             </div>
                         </div>
-
                         <div class="catalog-companys">
-                            <h3>Производители:</h3>
+                            <h3>ПРОИЗВОДИТЕЛИ:</h3>
                             <input type="checkbox" value="BOSCH" id="bosch" checked>
                             <label for="bosch">BOSCH</label>
                             <input type="checkbox" value="INTERSKOL" id="interskol">
@@ -104,11 +103,11 @@
                         </div>
 
                         <div class="catalog-voltages">
-                            <h3>Питание</h3>
+                            <h3>ПИТАНИЕ</h3>
                             <input name="site-verstka-form" type="radio" value="Аккумуляторные" id="battery" checked>
-                            <label for="battery">Аккумуляторные</label>
+                            <label for="battery">АККУМУЛЯТОРНЫЕ</label>
                             <input name="site-verstka-form" type="radio" value="Сетевые" id="network" checked>
-                            <label for="network">Сетевые</label>
+                            <label for="network">СЕТЕВЫЕ</label>
                         </div>
 
                         <button type="submit" value="Показать">Показать</button>
@@ -116,6 +115,15 @@
                 </div>
 
                 <div class="catalog-items">
+                    <div class="sorting">
+                        <p>сортировка:</p>
+                        <a href="#" class="sorting-price so rting-price-active">По цене</a>
+                        <a href="#" class="sorting-type">По типу</a>
+                        <a href="#" class="sorting-functional">По функционалу</a>
+                        <div class="sorting-down"></div>
+                        <div class="sorting-up"></div>
+                    </div>
+
                     <div class="catalog-items-header">
                         <div class="item-bfg3000">
                             <b>Перфоратор BOSCH<br>BFG 3000</b><br>
@@ -185,10 +193,24 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="paginator">
+                        <ul>
+                            <li><a class="active" href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a class="next" href="#">СЛЕДУЮЩАЯ</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-
-
+        </div>
+        <div class="about-punchers">
+            <div class="container">
+                <h1>ПАРА СЛОВ О ПЕРФОРАТОРАХ</h1>
+                <p>Перфоратор — универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне. Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели,
+                    шуруповерта и отбойного молотка. В ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут совмещены отбойный молоток и ударная дрель.</p>
+            </div>
         </div>
     </main>
 
