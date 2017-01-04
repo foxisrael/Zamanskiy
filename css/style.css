@@ -1,11 +1,10 @@
 html, body {
     margin: 0 auto;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
     font-size: 15px;
+    font-family: 'Roboto', sans-serif;
     background-image: url("../img/bg.jpg");
     background-size: cover;
-    width: 100%;
 }
 
 main {
@@ -23,7 +22,7 @@ main {
 .container {
     position: relative;
     width: 900px;
-    height: 1700px;
+    height: 1860px;
     padding: 50px;
     margin: 0 auto;
     background-color: #fff;
@@ -547,7 +546,7 @@ h3 {
     background-color: #1f345f;
 }
 
-.technomart, .sedona, .nerds, .glacy {
+.technomart, .sedona, .nerds, .glacy, .device, .pink {
     display: block;
     width: 198px;
     height: 198px;
@@ -559,50 +558,52 @@ h3 {
 
 .technomart {
     background-image: url("../img/technomart.jpg");
-    opacity: 0.7;
     background-repeat: no-repeat;
 }
-
-.technomart:hover {
-  background-image: url("../img/technomart.jpg");
-  opacity: 1;
-  background-repeat: no-repeat;}
 
 .sedona {
     background-image: url("../img/sedona.jpg");
-    opacity: 0.7;
     background-repeat: no-repeat;
-}
-
-.sedona:hover {
-    background-image: url("../img/sedona-hover.jpg");
-    opacity: 1;
 }
 
 .nerds {
     background-image: url("../img/nerds.jpg");
-    opacity: 0.7;
-    background-repeat: no-repeat;
-}
-
-.nerds:hover {
-    background-image: url("../img/nerds-hover.jpg");
-    opacity: 1;
     background-repeat: no-repeat;
 }
 
 .glacy {
     background-image: url("../img/glacy.jpg");
-    opacity: 0.7;
     background-repeat: no-repeat;
     margin-right: 0;
 }
 
-.glacy:hover {
-    background-image: url("../img/glacy-hover.jpg");
-    opacity: 1;
+.device {
+    background-image: url("../img/device.jpg");
+    background-repeat: no-repeat;
+}
+
+.pink {
+    background-image: url("../img/pink.jpg");
     background-repeat: no-repeat;
     margin-right: 0;
+}
+
+.technomart:hover,
+.sedona:hover,
+.nerds:hover,
+.glacy:hover,
+.device:hover,
+.pink:hover{
+  opacity: 0.8;
+}
+
+.technomart:active,
+.sedona:active,
+.nerds:active,
+.glacy:active,
+.device:active,
+.pink:active{
+  opacity: 0.3;
 }
 
 label {
