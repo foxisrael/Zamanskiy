@@ -1,4 +1,4 @@
-<?php 
+<?php
     header('Content-Type:text/html; charset="UTF-8"');
     $name = $_POST['name'];
     $email = $_POST['email'];
@@ -11,3 +11,5 @@
     Email: $email
     Текст сообщения: $text";
     mail($to, $subject, $message);
+
+    echo "Ваше сообщение успешно отправлено!";
